@@ -1,0 +1,31 @@
+Aggregations:
+
+a database operation that summarize multiple rows into a single row. (new table)
+  Ex: 
+  How many rows? count aggregation
+  Whats the average? avg aggregation
+  Whats the greatest? max aggregation
+  Whats the least? min aggregation
+  Whats the sum? sum aggregation
+  
+  https://www.youtube.com/watch?v=ZFn9xVQ0hD4
+  
+  
+  select food from diet where species = 'orangutan'
+  
+  select = Wer're fetching data out of the database rather than inserting
+  food = a column
+  from = what table we are talking about (diet)
+  where species = 'orangutan' = This is a restriction, it says what rows we want. We want the rows where species = orangutan
+  
+  We fetch data from a database by writing a code that sends a query to the database and the database responds with sending a new table to us!
+  
+  
+  https://www.youtube.com/watch?v=lXoiI0gx3MU
+  https://www.youtube.com/watch?v=PXNaLWJ5SKg
+  
+  SQL Types:
+    text - Same as Str in Python (values are written in 'single quotes')
+    integer - Same as Int in Python (but with different limits)
+    date - A calendar date. Values are written like this: '2014-04-13' (remember the single quotes so it gets threated as a string)
+    
